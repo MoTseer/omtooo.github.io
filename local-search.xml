@@ -4,23 +4,23 @@
   
   
   <entry>
-    <title>文章模板</title>
-    <link href="/2019/10/10/hello-world/"/>
-    <url>/2019/10/10/hello-world/</url>
+    <title>VMware 虚拟机下载与安装</title>
+    <link href="/2021/12/01/VMware/"/>
+    <url>/2021/12/01/VMware/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<h1 id="VMware-Workstation-Pro"><a href="#VMware-Workstation-Pro" class="headerlink" title="VMware Workstation Pro"></a>VMware Workstation Pro</h1><h2 id="VM-ware-16-2-1官方下载"><a href="#VM-ware-16-2-1官方下载" class="headerlink" title="VM ware 16.2.1官方下载"></a>VM ware 16.2.1官方下载</h2><p>1.下载地址</p><blockquote><p><a href="https://download3.vmware.com/software/player/file/VMware-player-full-16.2.1-18811642.exe">官方下载</a>  </p></blockquote><p>2.激活序列号</p><blockquote><p>ZF3R0-FHED2-M80TY-8QYGC-NPKYF<br>YF390-0HF8P-M81RQ-2DXQE-M2UT6<br>ZF71R-DMX85-08DQY-8YMNC-PPHV8</p></blockquote><h2 id="VM-ware-16-2-1安装教程"><a href="#VM-ware-16-2-1安装教程" class="headerlink" title="VM ware 16.2.1安装教程"></a>VM ware 16.2.1安装教程</h2><ul><li>运行安装包程序<br><img src="/img/1.png"><br><img src="/img/2.png"><br><img src="/img/3.png"><br><img src="/img/4.png"><br><img src="/img/5.png"><br><img src="/img/6.png"><br><img src="/img/7.png"><br><img src="/img/8.png"><br><img src="/img/9.png"><br><img src="/img/10.png"><h2 id="VM-ware-16-2-1安装系统"><a href="#VM-ware-16-2-1安装系统" class="headerlink" title="VM ware 16.2.1安装系统"></a>VM ware 16.2.1安装系统</h2></li><li>安装 Windows 7 系统<br>  1.系统下载地址 <a href="https://next.itellyou.cn/">itellyou</a><br>  2.系统安装教程<br>  <img src="/img/11.png"><br>  <img src="/img/12.png"><br>  <img src="/img/13.png"><br>  <img src="/img/14.png"><br>  <img src="/img/15.png"><br>  <img src="/img/16.png"><br>  <img src="/img/17.png"><br>  <img src="/img/18.png"><br>  <img src="/img/19.png"><h2 id="VM-ware-16-2-1去虚拟化"><a href="#VM-ware-16-2-1去虚拟化" class="headerlink" title="VM ware 16.2.1去虚拟化"></a>VM ware 16.2.1去虚拟化</h2></li></ul><p>1.记事本打开D:\vm\WIN\Windows 7 x64.vmx 添加以下代码  </p><blockquote><p>monitor_control.virtual_rdtsc = “false”<br>monitor_control.restrict_backdoor = “true”<br>monitor_control.disable_directexec = “true”<br>cpuid.1.eax = “00000000000000110000011011100100”<br>    <img src="/img/20.png"><br>2.下载修改文件替换到虚拟机目录<br>例如：虚拟机目录为 D:\Program Files\VMware\VMware Workstation\x64<br>替换修改文件 vmware-vmx.exe 和 BIOS.440.ROM<br>修改文件下载地址 <a href="https://wwe.lanzouo.com/ijI0ox3pvah">蓝奏云外链</a><br>    <img src="/img/21.png"></p></blockquote><h2 id="VM-ware-16-2-1系统优化"><a href="#VM-ware-16-2-1系统优化" class="headerlink" title="VM ware 16.2.1系统优化"></a>VM ware 16.2.1系统优化</h2>]]></content>
     
     
     <categories>
       
-      <category>模板</category>
+      <category>VMware 虚拟机</category>
       
     </categories>
     
     
     <tags>
       
-      <tag>模板</tag>
+      <tag>VMware 虚拟机</tag>
       
     </tags>
     
