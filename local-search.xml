@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>GitHub Hexo 搭建个人博客</title>
+    <link href="/2021/12/01/GitHub&amp;Hexo/"/>
+    <url>/2021/12/01/GitHub&amp;Hexo/</url>
+    
+    <content type="html"><![CDATA[<h1 id="在GitHub上面部署个人博客"><a href="#在GitHub上面部署个人博客" class="headerlink" title="在GitHub上面部署个人博客"></a>在GitHub上面部署个人博客</h1><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ul><li>首先需要注册一个 GitHub 账号  <ol><li><a href="https://github.com/">GitHub</a></li><li>进入GitHub 点击 Sign in 进入注册页面</li><li>输入邮箱 点击 Continue</li><li>输入密码 点击 Continue</li><li>输入用户名 点击 Continue</li></ol></li><li>下载与安装Node.js<ol><li><a href="https://nodejs.org/zh-cn/">Node.js</a></li><li>下载长期维护版进行安装即可</li><li>安装完毕之后 管理员运行 Windows 终端 键入 node -v 如果输出版本号表示安装成功</li><li>Node.js安装成功之后 再次键入 npm -v 检测npm版本</li></ol></li><li>下载与安装Git<ol><li><a href="https://git-scm.com/downloads">Git</a></li><li>点击 Windows 下载进行安装即可</li><li>安装完毕之后 管理员运行 Windows 终端 键入 git –version 如果输出版本号表示安装成功</li></ol></li><li>下载与安装Hexo<ol><li>管理员运行 Windows 终端 键入 npm install hexo-cli -g 安装Hexo</li><li>Hexo 安装完成之后 键入 hexo -v 如果输出版本号标识安装成功<h2 id="搭建仓库"><a href="#搭建仓库" class="headerlink" title="搭建仓库"></a>搭建仓库</h2></li></ol></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>搭建个人博客</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>搭建个人博客</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>VMware 虚拟机下载与安装</title>
     <link href="/2021/12/01/VMware/"/>
     <url>/2021/12/01/VMware/</url>
